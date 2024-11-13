@@ -135,6 +135,14 @@ p {
     margin-bottom: 2rem;
 }
 
+.content-bloco2 .title-bloco2 p {
+    font-weight: bold;
+}
+
+.container-items-4 .item img, .container-items-3 .item img {
+    margin-bottom: 10px;
+}
+
 .container-items-4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
@@ -173,8 +181,12 @@ p {
 .box-bloco3 {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
    
+}
+
+.content-bloco3 .box-bloco3 .column-one, .content-bloco3 .box-bloco3 .column-two {
+    width: 50%;
 }
 
 .btnAncoraFormulario {
